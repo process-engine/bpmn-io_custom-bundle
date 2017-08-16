@@ -1,14 +1,15 @@
 // get bpmn-js
 var BpmnModeler = require('bpmn-js/lib/Modeler');
 
-// load additional modules
+// get camunda moddle descriptor
+var camundaModdleDescriptor = require('camunda-bpmn-moddle/resources/camunda');
+
+// get any additional modules
 var additionalModules = [
   require('bpmn-js-properties-panel'),
-  require('bpmn-js-properties-panel/lib/provider/bpmn'),
+  require('bpmn-js-properties-panel/lib/provider/camunda'),
 ];
 
-// add additional (default!) modules to bpmn-js
-BpmnModeler.prototype._modules = BpmnModeler.prototype._modules.concat(additionalModules);
-
-// export
-module.exports = BpmnModeler;
+module.exports.modeler = BpmnModeler;
+module.exports.camundaModdleDescriptor = camundaModdleDescriptor;
+module.exports.additionalModules = additionalModules;
