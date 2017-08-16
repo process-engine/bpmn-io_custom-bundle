@@ -1,6 +1,6 @@
 {
   "name": "@process-engine-js/bpmn-js-custom-bundle",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This project creates a bundle of the bpmn.io components.",
   "scripts": {
     "build": "grunt"
