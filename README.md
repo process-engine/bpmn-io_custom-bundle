@@ -53,7 +53,7 @@ $ npm install --save @process-engine-js/bpmn-js-custom-bundle
 ```
 
 This will install the project in `node_modules`, we need to tell aurelia
-how to load this bundle into your application:
+how to load this bundle into the application:
 
 ```javascript
 {
