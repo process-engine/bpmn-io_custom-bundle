@@ -1,5 +1,5 @@
 {
-  "name": "@process-engine-js/bpmn-js-custom-bundle",
+  "name": "@process-engine/bpmn-js-custom-bundle",
   "version": "0.1.0",
   "description": "This project creates a bundle of the bpmn.io components.",
   "scripts": {
