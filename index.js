@@ -8,6 +8,7 @@ var camundaModdleDescriptor = require('camunda-bpmn-moddle/resources/camunda');
 var additionalModules = [
   require('bpmn-js-properties-panel'),
   require('bpmn-js-properties-panel/lib/provider/camunda'),
+  require('diagram-js-minimap')
 ];
 
 var BpmnModdle = require('bpmn-moddle');
