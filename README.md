@@ -49,7 +49,7 @@ This creates all bundled files in the `dist` folder.
 ### Usage
 
 ```shell
-$ npm install --save @process-engine-js/bpmn-js-custom-bundle
+$ npm install --save @process-engine/bpmn-js-custom-bundle
 ```
 
 This will install the project in `node_modules`, we need to tell aurelia
@@ -57,8 +57,8 @@ how to load this bundle into the application:
 
 ```javascript
 {
-  "name": "@process-engine-js/bpmn-js-custom-bundle",
-  "path": "../node_modules/@process-engine-js/bpmn-js-custom-bundle/dist",
+  "name": "@process-engine/bpmn-js-custom-bundle",
+  "path": "../node_modules/@process-engine/bpmn-js-custom-bundle/dist",
   "main": "bpmn-modeler-custom.js",
   "resources": [
     "bpmn-modeler-custom.css",
@@ -71,7 +71,7 @@ Inside your templates you can now use:
 
 ```html
 <template>
-  <require from="@process-engine-js/bpmn-js-custom-bundle/bpmn-modeler-custom.css"></require>  
+  <require from="@process-engine/bpmn-js-custom-bundle/bpmn-modeler-custom.css"></require>  
   ...
 </template>
 ```
@@ -79,7 +79,7 @@ Inside your templates you can now use:
 And inside your javascript files:
 
 ```javascript
-import * as BPMNModeler from '@process-engine-js/bpmn-js-custom-bundle';
+import * as BPMNModeler from '@process-engine/bpmn-js-custom-bundle';
 ```
 
 ### Publishing
