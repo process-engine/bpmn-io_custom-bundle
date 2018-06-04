@@ -45,8 +45,8 @@ module.exports = function (grunt) {
     },
   });
 
-  grunt.loadNpmTasks('grunt-browserify');
+  //grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-less');
 
-  grunt.registerTask('default', ['less', 'browserify:bower']);
+  grunt.registerTask('default', ['less']);
 }
