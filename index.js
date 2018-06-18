@@ -6,8 +6,6 @@ var camundaModdleDescriptor = require('camunda-bpmn-moddle/resources/camunda');
 
 // get any additional modules
 var additionalModules = [
-  require('bpmn-js-properties-panel'),
-  require('bpmn-js-properties-panel/lib/provider/camunda'),
   require('diagram-js-minimap')
 ];
 
