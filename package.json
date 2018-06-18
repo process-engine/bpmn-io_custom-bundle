@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "bpmn-js": "2.1.0",
-    "camunda-bpmn-moddle": "^0.13.0",
-    "diagram-js": "^0.27.2",
-    "diagram-js-minimap": "^0.5.5"
+    "camunda-bpmn-moddle": "^3.0.0",
+    "diagram-js": "^2.0.0",
+    "diagram-js-minimap": "^1.1.1"
   }
 }
