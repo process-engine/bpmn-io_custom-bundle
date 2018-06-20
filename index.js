@@ -1,5 +1,6 @@
-import modeler from 'bpmn-js/lib/Modeler';
 import camundaModdleDescriptor from 'camunda-bpmn-moddle/resources/camunda.json';
+import modeler from 'bpmn-js/lib/Modeler';
+import viewer from 'bpmn-js/lib/Viewer';
 
 import ZoomScrollModule from 'diagram-js/lib/navigation/zoomscroll';
 import MoveCanvasModule from 'diagram-js/lib/navigation/movecanvas';
@@ -14,4 +15,5 @@ export {
  MiniMap,
  ZoomScrollModule,
  MoveCanvasModule,
+ viewer,
 }
