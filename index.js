@@ -4,6 +4,9 @@ import camundaModdleDescriptor from 'camunda-bpmn-moddle/resources/camunda.json'
 import ZoomScrollModule from 'diagram-js/lib/navigation/zoomscroll';
 import MoveCanvasModule from 'diagram-js/lib/navigation/movecanvas';
 import MiniMap from 'diagram-js-minimap';
+import "bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css";
+import "diagram-js/assets/diagram-js.css";
+import "./src/diagram-js-minimap.css";
 
 export {
  camundaModdleDescriptor,
