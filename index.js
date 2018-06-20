@@ -12,9 +12,9 @@ import "./src/diagram-js-minimap.css";
 
 export {
  camundaModdleDescriptor,
- modeler,
  MiniMap,
- ZoomScrollModule,
+ modeler,
  MoveCanvasModule,
  viewer,
+ ZoomScrollModule,
 }
