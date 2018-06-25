@@ -1,21 +1,20 @@
-// get bpmn-js
-var BpmnModeler = require('bpmn-js/lib/Modeler');
+import camundaModdleDescriptor from 'camunda-bpmn-moddle/resources/camunda.json';
+import modeler from 'bpmn-js/lib/Modeler';
+import viewer from 'bpmn-js/lib/Viewer';
 
-// get camunda moddle descriptor
-var camundaModdleDescriptor = require('camunda-bpmn-moddle/resources/camunda');
+import MiniMap from 'diagram-js-minimap';
+import MoveCanvasModule from 'diagram-js/lib/navigation/movecanvas';
+import ZoomScrollModule from 'diagram-js/lib/navigation/zoomscroll';
 
-// get any additional modules
-var additionalModules = [
-  require('bpmn-js-properties-panel'),
-  require('bpmn-js-properties-panel/lib/provider/camunda'),
-  require('diagram-js-minimap')
-];
+import "bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css";
+import "diagram-js/assets/diagram-js.css";
+import "./src/diagram-js-minimap.css";
 
-var BpmnModdle = require('bpmn-moddle');
-var ModdleXml = require('moddle-xml');
-
-module.exports.modeler = BpmnModeler;
-module.exports.camundaModdleDescriptor = camundaModdleDescriptor;
-module.exports.additionalModules = additionalModules;
-module.exports.moddle = BpmnModdle;
-module.exports.moddleXml = ModdleXml;
+export {
+ camundaModdleDescriptor,
+ MiniMap,
+ modeler,
+ MoveCanvasModule,
+ viewer,
+ ZoomScrollModule,
+}
