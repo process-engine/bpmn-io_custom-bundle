@@ -82,3 +82,11 @@
 .djs-minimap .cursor-move {
   cursor: move;
 }
+
+.djs-minimap.open > .toggle {
+  opacity: 0.3;
+}
+
+.toggle:hover {
+  opacity: 1 !important;
+}
