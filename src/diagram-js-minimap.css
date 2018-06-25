@@ -57,7 +57,6 @@
 }
 
 .djs-minimap .viewport {
-  /* fill: rgba(255, 116, 0, 0.25); */
   fill: none;
   stroke: none;
 }
