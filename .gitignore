@@ -1,6 +1,7 @@
 # Created by https://www.gitignore.io/api/node,odx
 
 dist
+package-lock.json
 
 ### Node ###
 # Logs
