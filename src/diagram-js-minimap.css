@@ -63,7 +63,8 @@
 
 .djs-minimap .viewport-dom {
   position: absolute;
-  border: solid 2px #000;
+  background: rgba(0, 0, 0, 0.1);
+  border: solid 1px #CCC;
   border-radius: 2px;
   box-sizing: border-box;
   cursor: move;
