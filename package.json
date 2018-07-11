@@ -1,6 +1,6 @@
 {
   "name": "@process-engine/bpmn-js-custom-bundle",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "This project creates a bundle of the bpmn.io components.",
   "scripts": {
     "build": "rollup -c"
@@ -16,6 +16,6 @@
     "bpmn-js": "2.1.0",
     "camunda-bpmn-moddle": "^3.0.0",
     "diagram-js": "^2.0.0",
-    "diagram-js-minimap": "^1.1.1"
+    "diagram-js-minimap": "^1.2.2"
   }
 }
