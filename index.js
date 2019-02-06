@@ -6,6 +6,8 @@ import MiniMap from 'diagram-js-minimap';
 import MoveCanvasModule from 'diagram-js/lib/navigation/movecanvas';
 import ZoomScrollModule from 'diagram-js/lib/navigation/zoomscroll';
 
+import resizeAllModule from './src/resize-all-rules';
+
 import "bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css";
 import "diagram-js/assets/diagram-js.css";
 import "./src/diagram-js-minimap.css";
@@ -17,4 +19,5 @@ export {
  MoveCanvasModule,
  viewer,
  ZoomScrollModule,
+ resizeAllModule
 }

@@ -1,6 +1,6 @@
 {
   "name": "@process-engine/bpmn-js-custom-bundle",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "This project creates a bundle of the bpmn.io components.",
   "scripts": {
     "build": "rollup -c"
