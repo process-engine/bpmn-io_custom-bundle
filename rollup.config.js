@@ -6,7 +6,7 @@ import css from 'rollup-plugin-css-porter';
 export default {
   input: 'index.js',
   output: {
-    file: 'dist/bpmn-modeler-custom.js',
+    file: 'build/bpmn-modeler-custom.js',
     name: 'BpmnJS',
     format: 'umd',
   },
@@ -19,6 +19,6 @@ export default {
     css({
       dest: 'dist/bpmn-modeler-custom.css',
       minified: false,
-    }),
+    })
   ],
 }
