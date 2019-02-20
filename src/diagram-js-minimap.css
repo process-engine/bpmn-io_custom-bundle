@@ -99,4 +99,6 @@
 
 .toggle:hover {
   opacity: 1 !important;
+  background-color: #eee;
+  cursor: pointer;
 }
