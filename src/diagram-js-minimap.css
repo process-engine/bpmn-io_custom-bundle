@@ -35,6 +35,7 @@
   height: 46px;
   line-height: 46px;
   text-align: center;
+  opacity: 0.5;
 }
 
 .djs-minimap:not(.open) .toggle:before {
@@ -93,9 +94,11 @@
 }
 
 .djs-minimap.open > .toggle {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .toggle:hover {
   opacity: 1 !important;
+  background-color: #eee;
+  cursor: pointer;
 }
