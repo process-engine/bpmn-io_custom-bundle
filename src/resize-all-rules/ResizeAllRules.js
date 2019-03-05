@@ -20,7 +20,7 @@ ResizeAllRules.prototype.init = function() {
                      || event.shape.type === 'bpmn:SubProcess'
                      || event.shape.type === 'bpmn:CallActivity';
 
-    if(shapeIsTask){
+    if (shapeIsTask){
       return true;
     }
 
