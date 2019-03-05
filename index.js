@@ -11,7 +11,7 @@ import resizeAllModule from './src/resize-all-rules';
 
 import "bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css";
 import "diagram-js/assets/diagram-js.css";
-import "bpmn-js-bpmnlint/dist/assets/css/bpmn-js-bpmnlint.css";
+import "@process-engine/bpmn-js-bpmnlint/dist/assets/css/bpmn-js-bpmnlint.css";
 import "./src/diagram-js-minimap.css";
 
 export {
