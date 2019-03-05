@@ -5,7 +5,7 @@ import viewer from 'bpmn-js/lib/Viewer';
 import MiniMap from 'diagram-js-minimap';
 import MoveCanvasModule from 'diagram-js/lib/navigation/movecanvas';
 import ZoomScrollModule from 'diagram-js/lib/navigation/zoomscroll';
-import lintModule from 'bpmn-js-bpmnlint';
+import lintModule from '@process-engine/bpmn-js-bpmnlint';
 
 import resizeAllModule from './src/resize-all-rules';
 
