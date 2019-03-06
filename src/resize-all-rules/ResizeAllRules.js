@@ -15,13 +15,16 @@ ResizeAllRules.$inject = [ 'eventBus' ];
 ResizeAllRules.prototype.init = function() {
 
   this.addRule('shape.resize', 1500, function(event) {
-    
-    const shapeIsSequenceFlow = event.shape.type === 'bpmn:SequenceFlow';
-    if(shapeIsSequenceFlow){
-      return false;
+
+    const shapeIsTask = event.shape.type.includes('Task')
+                     || event.shape.type === 'bpmn:SubProcess'
+                     || event.shape.type === 'bpmn:CallActivity';
+
+    if (shapeIsTask){
+      return true;
     }
 
-    return true;
+    return false;
   });
 
 };
