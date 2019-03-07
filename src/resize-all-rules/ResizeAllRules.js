@@ -18,7 +18,10 @@ ResizeAllRules.prototype.init = function() {
 
     const shapeIsTask = event.shape.type.includes('Task')
                      || event.shape.type === 'bpmn:SubProcess'
-                     || event.shape.type === 'bpmn:CallActivity';
+                     || event.shape.type === 'bpmn:CallActivity'
+                     || event.shape.type === 'bpmn:Participant'
+                     || event.shape.type === 'bpmn:Lane'
+                     || event.shape.type === 'bpmn:LaneSet';
 
     if (shapeIsTask){
       return true;
