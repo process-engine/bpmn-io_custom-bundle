@@ -21,7 +21,8 @@ ResizeAllRules.prototype.init = function() {
                      || event.shape.type === 'bpmn:CallActivity'
                      || event.shape.type === 'bpmn:Participant'
                      || event.shape.type === 'bpmn:Lane'
-                     || event.shape.type === 'bpmn:LaneSet';
+                     || event.shape.type === 'bpmn:LaneSet'
+                     || event.shape.type === 'bpmn:TextAnnotation';
 
     if (shapeIsTask){
       return true;
