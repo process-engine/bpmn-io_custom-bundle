@@ -13,7 +13,7 @@
     "rollup-plugin-node-resolve": "^3.3.0"
   },
   "dependencies": {
-    "@process-engine/bpmn-js-bpmnlint": "1.0.0",
+    "@process-engine/bpmn-js-bpmnlint": "feature~fix_null_error",
     "bpmn-js": "3.0.2",
     "camunda-bpmn-moddle": "3.1.1",
     "diagram-js": "3.0.1",
