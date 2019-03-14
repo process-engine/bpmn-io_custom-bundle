@@ -1,6 +1,6 @@
 {
   "name": "@process-engine/bpmn-js-custom-bundle",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "description": "This project creates a bundle of the bpmn.io components.",
   "scripts": {
     "build": "mkdir -p dist && rollup -c && tsc"
@@ -13,7 +13,7 @@
     "rollup-plugin-node-resolve": "^3.3.0"
   },
   "dependencies": {
-    "@process-engine/bpmn-js-bpmnlint": "1.0.0",
+    "@process-engine/bpmn-js-bpmnlint": "1.0.1",
     "bpmn-js": "3.0.2",
     "camunda-bpmn-moddle": "3.1.1",
     "diagram-js": "3.0.1",
