@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@process-engine/bpmn-js-bpmnlint": "1.0.1",
+    "@process-engine/ci_tools": "^2.0.0",
     "bpmn-js": "4.0.4",
     "bpmn-moddle": "5.1.6",
     "camunda-bpmn-moddle": "3.2.0",
