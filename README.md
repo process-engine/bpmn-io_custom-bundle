@@ -94,5 +94,7 @@ import * as BPMNModeler from '@process-engine/bpmn-js-custom-bundle';
 
 ### Authors/Contact information?
 
-- Paul Heidenreich <paul.heidenreich@5minds.de>
 - Alexander Kasten <alexander.kasten@5minds.de>
+- Steffen Knaup <steffen.knaup@5minds.de>
+- Christian Werner <christian.werner@5minds.de>
+- René Föhring <rene.foehring@5minds.de>
