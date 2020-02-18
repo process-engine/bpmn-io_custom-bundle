@@ -92,7 +92,7 @@ And inside your javascript files:
 import * as BPMNModeler from '@process-engine/bpmn-js-custom-bundle';
 ```
 
-### Authors/Contact information?
+### Authors/Contact information
 
 - Alexander Kasten <alexander.kasten@5minds.de>
 - Steffen Knaup <steffen.knaup@5minds.de>
