@@ -1,7 +1,7 @@
 # bpmn-js custom bundle
 
 This project creates a bundle of the bpmn.io components, at the end of
-the bundling process there is one javascript file and one css file ready to use.
+the bundling process there is one JavaScript file and one CSS file ready to use.
 
 The bundle is created with [rollup.js](https://rollupjs.org/).
 
