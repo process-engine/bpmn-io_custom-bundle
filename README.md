@@ -9,7 +9,7 @@ The bundle is created with [rollup.js](https://rollupjs.org/).
 
 **Motivation**: We created this project to solve a bundling issue, when using
 Aurelia and bpnm-js there are some dependencies that cannot be resolved. For
-example some parts of bpnm-js require the NodeJS `fs` module.
+example some parts of bpmn-js require the NodeJS `fs` module.
 
 To get around this issue we tried using the [`bower-bpmn-js`](https://github.com/bpmn-io/bower-bpmn-js)
 module via bower in our aurelia application. This worked but we also needed
