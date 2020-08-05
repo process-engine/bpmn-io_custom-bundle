@@ -1,6 +1,6 @@
 {
   "name": "@process-engine/bpmn-js-custom-bundle",
-  "version": "2.10.0-alpha.2",
+  "version": "2.10.0-alpha.3",
   "description": "This project creates a bundle of the bpmn.io components.",
   "scripts": {
     "build": "mkdir -p dist && rollup -c && tsc"
